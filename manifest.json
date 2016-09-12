@@ -1,0 +1,24 @@
+{
+    "name": "IDEOZONE",
+    "description": "Piensa libre, crea en equipo",
+    "version": "0.1",
+    "manifest_version": 2,
+    "app": {
+        "background": {
+            "scripts": [
+                "background.js"
+            ]
+        }
+    },
+    "permissions": [
+        "storage",
+        "webview"
+    ],
+    "web_accessible_resources": [
+        "window.html"
+    ],
+    "icons": { 
+        "16": "ideozone-16.png", 
+        "128": "ideozone-128.png" 
+    }
+}

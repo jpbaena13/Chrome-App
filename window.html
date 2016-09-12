@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<title>Ideozone</title>
+
+		<link rel="stylesheet" type="text/css" href="css/main.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="css/noteboard.css" media="all" />
+
+        <style>
+            #noteboard {
+                background-image: url(img/noteboard/grid.png); 
+                background-color: #ccc;
+                height: 2000px;
+                width: 4000px;
+            }
+        </style>
+
+	</head>
+	<body>
+
+		<header class="untHeaderWrapper">
+            <div class="untHeaderContent">
+        		<img src="img/default/logo_white.png" alt="Ideozone" height="30px" width="58px">
+    		</div>
+        </header>
+
+		<div class="untMainWrapper">
+            <div class="untMainContent">
+                <div id="noteboard" data-noteboardid="16"></div>
+            </div>
+        </div>
+
+		<!-- vendors.min.js -->
+		<script type="text/javascript" src="js/lib/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/lib/jquery-ui-1.11.2.min.js"></script>
+		<script type="text/javascript" src="js/lib/jquery-ui.touch.min.js"></script>
+		<script type="text/javascript" src="js/lib/jquery.cookie.min.js"></script>
+		<script type="text/javascript" src="js/lib/jquery.jscrollpane.min.js"></script>
+		<script type="text/javascript" src="js/lib/jquery.mousewheel.min.js"></script>
+		<script type="text/javascript" src="js/lib/jquery.qtip.min.js"></script>
+		<script type="text/javascript" src="js/lib/jquery.validate.min.js"></script>		
+		<script type="text/javascript" src="js/lib/observable.js"></script>
+
+		<!-- main.min.js -->
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/permissionsKeyPress.js"></script>
+		<script type="text/javascript" src="js/views.js"></script>
+		<script type="text/javascript" src="plugins/placeholder.js"></script>
+		<script type="text/javascript" src="plugins/untInput.js"></script>
+		<script type="text/javascript" src="plugins/validate.password.js"></script>
+		<script type="text/javascript" src="locale/es_ES.js"></script>
+		
+		<!-- vendors-noteboard.min.js -->
+		<script type="text/javascript" src="js/lib/jlinq.js"></script>
+		<script type="text/javascript" src="js/lib/jlinq.jquery.js"></script>
+		<script type="text/javascript" src="js/lib/jquery.contextMenu.min.js"></script>
+		<script type="text/javascript" src="js/lib/dropzone.min.js"></script>
+		<script type="text/javascript" src="js/lib/jquery.timeago.js"></script>
+		<script type="text/javascript" src="js/lib/jquery.fittext.js"></script>
+		<script type="text/javascript" src="js/lib/require.min.js"></script>		
+		<script type="text/javascript" src="js/objects/resources.min.js"></script>
+		<script type="text/javascript" src="js/objects/noteboard.object.js"></script>
+
+		<script type="text/javascript" src="background.js"></script>
+	</body>
+</html>

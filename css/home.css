@@ -1,0 +1,102 @@
+form .opts{float:left;width:50%}
+form .untBtnLogin{clear:both;text-align:center}
+form #btnLogin,form #btnSignup{width:200px}
+.untMainContent .untImageTooltip{position:absolute;margin-top:-2em;z-index:6;}
+.untMainContent .untImageTooltip.right{margin-left:12em;z-index:1}
+.untRightContent input[type=text],.untRightContent input[type=password]{width:65%}
+.untSocialLogin{text-align:center;margin-bottom:1em}
+.untHomeWrapper{background:url("../img/home/bg.jpg") no-repeat center 20%;background-size:cover;height:100%;width:100%;}
+.untHomeWrapper .untHomeContent{margin:0 auto;padding:3em 0;max-width:980px;height:600px;}
+.untHomeWrapper .untHomeContent img{background:rgba(68,68,68,0.8);border-radius:2em;padding:2em;margin-top:6%}
+.untHomeWrapperBottom{background:url("../img/home/try_it.jpg") no-repeat center 20%;background-size:cover;margin-bottom:5em;}
+.untHomeWrapperBottom .untHomeContent{margin:0 auto;padding:3em 0;text-align:center;max-width:980px;height:500px;}
+.untHomeWrapperBottom .untHomeContent h2{background:rgba(0,0,0,0.5);border-radius:5px;color:#fff;font-family:dosis;font-size:4em;text-shadow:0 0 16px #14495d}
+.untHomeWrapperBottom .untHomeContent img{margin-top:7em}
+.untHeaderWrapper.home .untTryIt{margin-top:.7em;display:inline-block}
+.untHeaderWrapper.home .untLogo{display:none}
+.untMainWrapper.home article{font-size:1.4em;margin-bottom:3em;overflow:auto;}
+.untMainWrapper.home article section{box-sizing:border-box;text-align:center;width:50%}
+.untMainWrapper.home article.left section{float:left}
+.untMainWrapper.home article.right section{float:right}
+.untMainWrapper.home article h1,.untMainWrapper.home article h2,.untMainWrapper.home article h3,.untMainWrapper.home article h4,.untMainWrapper.home article h5,.untMainWrapper.home article h6{color:#14495d;font-family:dosis;text-align:left}
+.untMainWrapper.home article p{color:#333;font-family:dosis_light;font-size:24px;text-align:justify}
+label[for=tos_agree].error{margin-left:240px}
+.untMainWrapper.terms .untMainContent{margin-top:3em}
+.untMainWrapper.terms .untLeftContent{box-sizing:border-box;padding:1em;width:70%}
+.untMainWrapper.terms .untRightContent{vertical-align:top;width:26%;}
+.untMainWrapper.terms .untRightContent nav{background-color:#eee;border:thin solid #ccc;border-radius:5px;}
+.untMainWrapper.terms .untRightContent nav ul{list-style:none;}
+.untMainWrapper.terms .untRightContent nav ul li{margin-bottom:1em;}
+.untMainWrapper.terms .untRightContent nav ul li a{color:#888}
+.untMainWrapper.terms .untRightContent a.select{color:#1e62a9}
+.untMainWrapper.about .untMainContent{margin-top:3em}
+.untMainWrapper.about figure{display:inline-block;margin-left:3em;vertical-align:top;margin-bottom:2em;}
+.untMainWrapper.about figure figcaption{margin-top:1em;text-align:center}
+.untMainWrapper.about figure img{box-shadow:6px 5px 5px #b3afaf;border-radius:50%}
+.untMainWrapper.about .untSponsors figure > div{background:url("../img/default/sponsors.png") no-repeat;width:200px;height:100px}
+.untMainWrapper.about .untSponsors .innovati{background-position:0 0}
+.untMainWrapper.about .untSponsors .parque_e{background-position:-200px 0}
+.untMainWrapper.about .untSponsors .creame{background-position:-400px 0}
+.untMainWrapper.contact .untMainContent{margin-top:3em}
+.untMainWrapper.contact .untLeftContent{padding:1em;width:70%}
+body.blog .untHeaderWrapper{background:none;background-color:#fff !important;border-top:10px solid #14495d;height:auto}
+body.blog .untHeaderContent{border-bottom:thin solid #adadad;padding:.5em;text-align:center}
+body.blog .untLeftContent{box-sizing:border-box;padding-right:2.5em;width:70%}
+body.blog .untRightContent{position:fixed;max-width:300px;width:auto;}
+body.blog .untRightContent li small{color:#aaa}
+body.blog .untPicturePost{width:50px;float:right;border-radius:50%;margin-left:1em}
+body.blog article{border-bottom:3px dotted #f5b143;margin:1em;margin-bottom:3em;padding-bottom:1em;}
+body.blog article img{display:block;margin:0 auto}
+body.blog article footer{color:#aaa;text-align:right}
+body.only-form .untHeaderContent ul{display:none}
+body.only-form .untHeaderWrapper .untHeaderContent .untHeaderLeft{display:block;float:initial;margin-bottom:.5em;text-align:center}
+body.only-form .untLeftContent{display:none}
+body.only-form .untBtnFb,body.only-form .untBtnTwt{display:none}
+body.only-form .untRightContent h2{display:none}
+body.only-form .untMainContent{text-align:center}
+body.only-form .untFooterWrapper{display:none}
+body.user-profile .untUserProfile{text-align:center;}
+body.user-profile .untUserProfile img{border:3px solid #14495d;height:100px;margin-right:2em;width:100px}
+body.user-profile .untUserProfile .untFullname{font-size:1.5em}
+body.user-profile .untNoteboard,body.user-profile .untGroup{background:#fff;border:thin solid #ccc;box-shadow:-1px 1px 2px #ccc;box-sizing:border-box;display:inline-block;height:200px;margin:8px;padding:.5em;padding-right:0;vertical-align:top;width:200px;}
+body.user-profile .untNoteboard .leftContent,body.user-profile .untGroup .leftContent{width:180px}
+body.user-profile .untNoteboard .preview,body.user-profile .untGroup .preview{border-radius:5px;height:115px;overflow:hidden;text-decoration:none;width:100%}
+body.user-profile .untNoteboard .name,body.user-profile .untGroup .name{color:#14495d;font-weight:bold;height:1.2em;line-height:1em;margin-top:.3em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+body.user-profile .untNoteboard .description,body.user-profile .untGroup .description{color:#aaa;font-size:.9em;height:3em;margin-top:.3em;overflow:hidden}
+body.user-profile .untGroup{height:240px;}
+body.user-profile .untGroup img{border:thin solid #ccc;border-radius:50%;height:35px;margin:2px;width:35px}
+body.user-profile .untGroup .preview{background-color:#d0dbd4}
+body.user-profile .untGroup h4{margin:0;margin-left:5px;margin-bottom:5px}
+body.user-profile .untGroup .untBtn{float:right}
+body.features .untMainBanner{background:#00607b;height:400px;position:absolute;text-align:center;width:100%;z-index:-1}
+body.features .untMainContent{max-width:100%;padding:0;padding-top:2em;}
+body.features .untMainContent .untVirtualBoard{display:block;color:#fff;font-family:dosis_light;font-size:1.5em;margin:0 auto 2em auto;max-width:980px;text-align:center;}
+body.features .untMainContent .untVirtualBoard h2{color:#fff;font-size:2em;font-weight:bold;}
+body.features .untMainContent .untVirtualBoard h2 span{margin-right:1em}
+body.features .untMainContent .untVirtualBoard img{border-radius:5px;box-shadow:0 0 10px #999;display:block;margin:0 auto;margin-top:20px;width:95%}
+body.features .untMainWrapper.home article{background:#eee;border-bottom:thin solid #ddd;border-top:thin solid #ddd;padding:1em 0;}
+body.features .untMainWrapper.home article section:nth-child(1){width:65%}
+body.features .untMainWrapper.home article section:nth-child(2){width:35%}
+body.features .untMainWrapper.home article img{border-radius:5px;box-shadow:0 0 5px #aaa}
+body.features .untMainWrapper.home article.left{background:transparent;border:none}
+body.features .untMainWrapper.home article div{margin:0 auto;max-width:980px}
+body.payment .untBox{font-size:1.1em;width:80%;}
+body.payment .untBox ul{list-style:none;margin:0;padding:0;}
+body.payment .untBox ul li.name{font-weight:bold}
+body.payment .untBox ul li.email{color:#777}
+body.payment .untBox ul li.account{margin-top:2em;}
+body.payment .untBox ul li.account span{font-weight:bold}
+body.payment .untBox table{width:100%;}
+body.payment .untBox table .suscriptions{border-top:thin solid #ccc;height:60px;padding:1em;}
+body.payment .untBox table .suscriptions.last{border-bottom:thin solid #ccc}
+body.payment .untBox table .suscriptions input{margin-right:1em}
+body.payment .untBox table .suscriptions span{color:#777}
+body.payment .untBox table .suscriptions b{font-size:1.1em}
+body.payment .untBox table .suscriptions .discount{background-color:#db7508;border-radius:5px;color:#fff;margin-left:10em;margin-top:-28px;padding:5px;position:absolute;text-shadow:1px 1px 3px #777}
+body.payment .untBox table #tdMontly{display:none}
+body.payment .untBox table tr.buyer_title{border:none;display:block;color:#e77b07;font-size:1.3em;font-weight:bold;padding-top:2em}
+body.payment .untBox table tr.total{font-size:1.5em;font-weight:bold}
+body.payment .untBox .green{display:block;margin:4em auto;width:200px}
+body.payment .untBox .untPayU{color:#777;text-align:center;}
+body.payment .untBox .untPayU span,body.payment .untBox .untPayU img{vertical-align:middle}
+body.payment .untBox .untPayU img{margin-left:1em}
